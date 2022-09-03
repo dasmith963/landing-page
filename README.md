@@ -1,1 +1,5 @@
-# landing-page
+This project encapsulates everything I have learned about html and css up to this point. The goal of this project was to recreate a layout based on an image provided by the Odin Project(https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png). I tried to get as close to the original design as possible, but I really wanted to focus on getting the elements to line up correctly.
+
+Overall I was satisfied with the end result. I still have a lot to learn when it comes to positioning and using Flexbox. After doing this project I can honestly say I feel fairly comfortable using Flexbox to create layouts for future projects.
+
+The project was designed to test my skills using Flexbox, as well as my understanding of the box model.
