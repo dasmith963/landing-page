@@ -25,7 +25,8 @@ body{
 }
 
 .navbar,
-.header{
+.header,
+.footer{
   background-color: #1f2937;
 }
 
@@ -92,7 +93,7 @@ a:hover{
 .hero{
   max-width: 400px;
   flex: 1;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .main-text{
@@ -185,10 +186,12 @@ figcaption{
   padding: 50px;
   color: #e5e7eb;
   max-width: 1020px;
+  flex-wrap: wrap;
 }
 
 .last{
   padding: 60px;
+  margin-bottom: 25px;
 }
 
 .btn-2{
@@ -199,4 +202,14 @@ figcaption{
   border-radius: 8px;
   font-size: 18px;
   font-weight: bold;
+}
+
+/* footer */
+
+.footer{
+  padding: 32px;
+  color:#e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
