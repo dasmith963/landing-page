@@ -45,7 +45,8 @@ a,
   background-color: #3383f6;
 }
 
-.btn-1:hover{
+.btn-1:hover,
+.btn-2:hover{
   background-color: #e5e7eb;
   color: #1f2937;
 }
@@ -174,4 +175,28 @@ figcaption{
   margin: 40px 0;
 }
 
+/* last section */
 
+.last .container{
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  background-color: #3882f6;
+  padding: 50px;
+  color: #e5e7eb;
+  max-width: 1020px;
+}
+
+.last{
+  padding: 60px;
+}
+
+.btn-2{
+  background-color: #3383f6;
+  border: #e5e7eb solid;
+  color: #e5e7eb;
+  width: 160px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
