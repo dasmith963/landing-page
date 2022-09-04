@@ -56,7 +56,7 @@ a,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8px;
+  margin-top: 16px;
   margin-bottom: 32px;
 }
 
@@ -85,10 +85,13 @@ a:hover{
   justify-content: space-around;
   align-items: center;
   padding: 32px;
+  flex-wrap: wrap;
 }
 
 .hero{
   max-width: 400px;
+  flex: 1;
+  margin-bottom: 16px;
 }
 
 .main-text{
@@ -113,6 +116,36 @@ a:hover{
   height: auto;
   max-width: 500px;
 }
+
+/* movie section */
+
+.title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  color: #1f2937;
+  padding: 20px;
+}
+
+.rounded{
+ border-radius: 20%;
+ height: auto;
+ width: 200px;
+}
+
+.text{
+  max-width: 200px;
+  text-align: center;
+}
+
+.movies .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
 
 
 
