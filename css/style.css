@@ -117,6 +117,7 @@ a:hover{
 .popcorn{
   height: auto;
   max-width: 500px;
+  min-width: 0;
 }
 
 /* movie section */
